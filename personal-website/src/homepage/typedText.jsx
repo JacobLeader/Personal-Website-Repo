@@ -8,7 +8,7 @@ export default function TypedText() {
     React.useEffect(() => {
       const typed = new Typed(el.current, {
         strings: [
-          "<span class='text-darkGray '>Jacob Leader</span><br><span class='text-coral'>Web Dev &amp; AI Enthusiast</span>"
+          "<span class='text-darkGray '>Jacob Leader</span><br><span class='text-coral'>Web Dev &amp; AI Enthusiast</span>^2000"
         ],
         typeSpeed: 95,
         backSpeed: 110,
