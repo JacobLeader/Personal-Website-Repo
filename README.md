@@ -1,9 +1,5 @@
 # Personal-Website
  
-## Inspirations:
-- https://www.craftz.dog/
-- https://v4.brittanychiang.com/
-
 ## Colors: 
 - Coral - Primary Brand Color - Call-to-action buttons and key headlines.
 - Dark Gray - Text Color - Body text and secondary information.
