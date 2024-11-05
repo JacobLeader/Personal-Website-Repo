@@ -8,7 +8,7 @@ export default function TypedText() {
     React.useEffect(() => {
       const typed = new Typed(el.current, {
         strings: [
-          "<span class='text-darkGray'>Jacob Leader</span><br><span class='text-lightGray'>Web Dev &amp; AI</span>"
+          "<span class='text-darkGray '>Jacob Leader</span><br><span class='text-coral'>Web Dev &amp; AI Enthusiast</span>"
         ],
         typeSpeed: 95,
         backSpeed: 110,
@@ -21,9 +21,9 @@ export default function TypedText() {
         typed.destroy();
       };
     }, []);
-
+//  h-screen justify-center pt-[30vh]
     return (
-        <div className="font-JetBrains font-grey text-7xl leading-snug pl-[15%]">
+        <div className="font-JetBrains text-7xl leading-tight tracking-tight">
             <span ref={el} />
         </div>
     );
