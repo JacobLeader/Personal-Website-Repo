@@ -25,7 +25,7 @@ module.exports = {
         coral: '#FF6F61',
         mistyRose: '#FFE4E1',
         gold: '#FFD700', 
-        floralWhite: '#FFFAF0' // Background color
+        floralWhite: '#fff7e8' // Background color
       },
       fontSize: {
         '10xl': '13rem',

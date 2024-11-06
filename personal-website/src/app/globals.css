@@ -30,5 +30,29 @@
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
   
-  
+.strike-through {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    color: black;
+}
+.strike-through::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left:0;
+    bottom: 50;
+    height: 5px;
+    background-color: black;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-out;
+    transform-origin: center right;
+}
+
+.strike-through:hover::after {
+    transform: scaleX(1);
+    background-color: black;
+    transform-origin: center left;
+}
