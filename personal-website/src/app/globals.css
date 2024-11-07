@@ -56,3 +56,17 @@
     background-color: black;
     transform-origin: center left;
 }
+
+#rotatingText {
+  outline: 2px red;
+  animation-name: rotate-circle;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate-circle {
+  to {
+    transform: rotate(360deg);
+  }
+}

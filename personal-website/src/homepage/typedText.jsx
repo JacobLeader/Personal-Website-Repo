@@ -16,7 +16,7 @@ export default function TypedText() {
     // only run if hasnt run in session
     const typed = new Typed(el.current, {
       strings: [
-        "<span class='text-darkGray'>Jacob Leader</span><br><span class='text-coral'>Web Dev &amp; AI Enthusiast</span>^2000"
+        "<span class='text-darkGray'>Jacob Leader</span><br><span class='text-coral '>Web Dev &amp; AI Enthusiast</span>^2000"
       ],
       typeSpeed: 95,
       backSpeed: 110,
@@ -36,15 +36,15 @@ export default function TypedText() {
 
   if (!hasRun) {
     return (
-      <div className="font-JetBrains text-7xl leading-tight tracking-tight">
+      <div className="font-JetBrains leading-tight tracking-tight text-7xl">
         <span ref={el} />
       </div>
     );
   } else {
     return (
-      <div className='font-JetBrains text-7xl leading-tight tracking-tight'>
-        <div className="text-darkGray">Jacob Leader</div>
-        <div className="text-coral">Web Dev & AI Enthusiast</div>
+      <div className='font-JetBrains tracking-tight text-7xl space-y-4'>
+        <div className="text-darkGray text-7xl pb-">Jacob Leader</div>
+        <div className="text-coral text-6xl">Web Dev & AI Enthusiast</div>
       </div>
     );
   }

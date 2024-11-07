@@ -4,7 +4,7 @@ import Logo from "@/components/logo";
 export default function Navbar() {
     return (
         <div className="flex flex-row">
-            <div className="relative z-10">
+            <div className="relative z-10 pl-2">
                 <Logo />
             </div>
             <div className="flex flex-row justify-center w-full pt-4 absolute">

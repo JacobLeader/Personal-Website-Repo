@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="antialiased bg-floralWhite">
+      <body className="antialiased bg-floralWhite overflow-hidden	">
         <ParticlesBackground>
           <Navbar/>
           {children}
