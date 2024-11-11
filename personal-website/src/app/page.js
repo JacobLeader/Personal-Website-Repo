@@ -12,8 +12,8 @@ export default function Home() {
       <div className='flex flex-col pt-[20vh] pl-[15%]'> 
         <TypedText />
         <div className='font-bold pt-6 text-lightGray w-[33vw] pl-2'>
-          I'm a doing a Major Concentration in Computer Science at McGill University, I'm passionate about AI and web development. 
-          As the VP of Web Development for the McGill AI Lab, I collaborate with others to drive innovation in AI.
+          I’m majoring in Computer Science at McGill University, and as VP of Web Development at the McGill AI Lab, 
+          I collaborate with others to drive innovation in AI.
         </div>
       </div>
       <div className="absolute bottom-20 left-0 pb-4 pl-6">
