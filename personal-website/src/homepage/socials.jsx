@@ -3,7 +3,7 @@ export default function SocialIcons() {
         <div className="flex flex-col space-y-4">
             <Icon link="https://github.com/JacobLeader" path="/github-icon.svg" alt="GitHub" />
             <Icon link="https://www.linkedin.com/in/jacob-s-leader/" path="/linkedin-icon.svg" alt="Linkedin" />
-            <Icon link="https://x.com/JacobDevX" path="/X-icon.svg" alt="X / Twitter" />
+            {/* <Icon link="https://x.com/JacobDevX" path="/X-icon.svg" alt="X / Twitter" /> */}
         </div>
     );
 }
